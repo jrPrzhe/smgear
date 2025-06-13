@@ -12,22 +12,22 @@ const SuperQuality = () => {
       <div className="flex flex-1 flex-col">
         <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
           <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-3">
-            We provide you
+            Мы предлагаем Тебе
           </span>
-          <span className="text-purple-900">Super </span>
-          <span className="text-purple-900">Quality</span> Shoes
+          <span className="text-purple-900">Технику </span>
+          <span className="text-purple-900">Высшего</span> Качества
         </h2>
         <p className="mt-4 lg:max-w-lg info-text">
-          Ensuring premium comfort and style, our meticulously crafted footwear
-          is designed to elevate your experience, providing you with unmatched
-          quality, innovation, and a touch of elegance.
+        Гарантируем надежность, современный дизайн и передовые технологии. Наши устройства созданы для того, чтобы улучшить ваш опыт использования — с отличным соотношением цены и качества, инновационными решениями и вниманием к деталям.
         </p>
         <p className="mt-6 lg:max-w-lg info-text">
-          Our dedication to detail and excellence ensures your satisfaction
+        Мы делаем всё, чтобы вы остались довольны покупкой — быстро, выгодно и без лишних хлопот.
+
+
         </p>
         <div className="mt-11">
           {" "}
-          <Button label="View details" />
+          <Button label="Связаться с Нами" />
         </div>
       </div>
       <TrackVisibility partialVisibility once>

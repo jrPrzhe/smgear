@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { star } from "../assets/icons";
-import { products } from "../assets/constants";
+
 import { shoe10, shoe11, shoe12, shoe7, shoe9 } from "../assets/images";
+import { generateTelegramLink } from "../utils/generateTelegramLink";
 
 const PopularProductCard = ({ imgURL, name, price, isLast }) => {
   const carrousel = [shoe7, shoe9, shoe10, shoe11, shoe12];
@@ -12,7 +13,7 @@ const PopularProductCard = ({ imgURL, name, price, isLast }) => {
 
     if (isLast) {
       intervalId = setInterval(() => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % products.length);
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % carrousel.length);
       }, 1000);
     }
 
@@ -20,6 +21,9 @@ const PopularProductCard = ({ imgURL, name, price, isLast }) => {
   }, [isLast]);
 
   const displayedImage = isLast ? carrousel[currentIndex] : imgURL;
+
+  // Генерация ссылки при клике
+  const telegramLink = generateTelegramLink(name, price);
 
   return (
     <div className="flex flex-1 flex-col w-full max-sm:w-full">
@@ -36,6 +40,16 @@ const PopularProductCard = ({ imgURL, name, price, isLast }) => {
       <p className="mt-2 font-semibold font-montserrat text-gray-900 text-2xl leading-normal">
         {price}
       </p>
+
+      {/* Кнопка с Telegram-ссылкой */}
+      <a
+        href={telegramLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-4 inline-block px-4 py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition-colors"
+      >
+        Оформить заказ
+      </a>
     </div>
   );
 };

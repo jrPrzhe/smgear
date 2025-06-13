@@ -15,22 +15,22 @@ const Hero = () => {
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-36">
         <p className="text-xl font-montserrat text-purple-900">
-          Our Summer Collection
+        Новая коллекция Электроники
+
         </p>
-        <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[68px] max-sm:leading-[82px] font-bold">
+        <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[50px] max-sm:leading-[82px] font-bold">
           <span className="xl:bg-white xl:whitespace-nowrap relative z-10 xl:pr-10 max-sm::p-0">
-            New Collection
-          </span>
-          <br />
+          Новые поступления
+                    </span>
+          <br /> <br />
           <span className="text-purple-900 inline-block mt-3">
-            Converse{" "}
+            SMGEAR{" "}
           </span>{" "}
         </h1>
         <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
-          Discover stylish Converse arrivals, quality comfort, and innovation
-          for your active life.
+        Представляем стильные новинки: наушники, колонки и зарядные устройства для активного образа жизни.
         </p>
-        <Button label="Shop now" iconURL={arrowRight} />
+        <Button label="Смотреть всё" iconURL={arrowRight} />
         <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
           {statistics.map((stat) => (
             <div key={stat.value}>

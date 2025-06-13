@@ -8,22 +8,22 @@ import customer2 from "./customer2.svg";
 import footerLogo from "./footer-logo.svg";
 import headerLogo from "./header-logo.svg";
 
-import offer from "./offer.svg";
+import offer from "./offer.png";
 
-import shoe4 from "./shoe4.svg";
-import shoe5 from "./shoe5.svg";
-import shoe6 from "./shoe6.svg";
-import shoe7 from "./shoe7.svg";
-import shoe8 from "./shoe8.svg";
-import shoe9 from "./shoe9.svg";
-import shoe10 from "./shoe10.svg";
-import shoe11 from "./shoe11.svg";
-import shoe12 from "./shoe12.svg";
+import shoe4 from "./shoe4.jpg";
+import shoe5 from "./shoe4.jpg";
+import shoe6 from "./shoe4.jpg";
+import shoe7 from "./shoe4.jpg";
+import shoe8 from "./shoe8.jpg";
+import shoe9 from "./shoe4.jpg";
+import shoe10 from "./shoe4.jpg";
+import shoe11 from "./shoe4.jpg";
+import shoe12 from "./shoe4.jpg";
 
 import thumbnailBackground from "./thumbnail-background.svg";
-import thumbnailShoe1 from "./thumbnail-shoe1.svg";
-import thumbnailShoe2 from "./thumbnail-shoe2.svg";
-import thumbnailShoe3 from "./thumbnail-shoe3.svg";
+import thumbnailShoe1 from "./thumbnail-shoe1.jpg";
+import thumbnailShoe2 from "./thumbnail-shoe2.jpg";
+import thumbnailShoe3 from "./thumbnail-shoe3.jpg";
 
 export {
   bigShoe1,

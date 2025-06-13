@@ -22,10 +22,10 @@ import {
 } from "../images";
 
 export const navLinks = [
-  { href: "#home", label: "Home" },
-  { href: "#about-us", label: "About Us" },
-  { href: "#products", label: "Products" },
-  { href: "#contact-us", label: "Contact Us" },
+  { href: "#home", label: "Главная" },
+  { href: "#about-us", label: "О Нас" },
+  { href: "#products", label: "Каталог" },
+  { href: "#contact-us", label: "Контакты" },
 ];
 
 export const shoes = [
@@ -44,67 +44,100 @@ export const shoes = [
 ];
 
 export const statistics = [
-  { value: "1k+", label: "Brands" },
-  { value: "500+", label: "Shops" },
-  { value: "250k+", label: "Customers" },
+  { value: "1k+", label: "Товаров" },
+  { value: "500+", label: "Поставщиков" },
+  { value: "250k+", label: "Продаж" },
 ];
 
 export const products = [
   {
     imgURL: shoe4,
-    name: "Chuck Taylor All Star",
-    price: "100.20 €",
+    name: "AirPods Pro 2",
+    price: "15 990 ₽",
+    telegramLink: generateTelegramLink("AirPods Pro 2", "15 990 ₽"),
   },
   {
     imgURL: shoe5,
-    name: "Run Star Hike Sequins",
-    price: "190.00 €",
+    name: "Sony WH-1000XM5",
+    price: "23 990 ₽",
+    telegramLink: generateTelegramLink("Sony WH-1000XM5", "23 990 ₽"),
   },
   {
     imgURL: shoe6,
-    name: "Chuck Taylor All Star",
-    price: "120.20 €",
+    name: "Xiaomi Buds 4 Pro",
+    price: "5 990 ₽",
+    telegramLink: generateTelegramLink("Xiaomi Buds 4 Pro", "5 990 ₽"),
   },
   {
     imgURL: shoe7,
-    name: "Chuck 70 Y2K Heart",
-    price: "130.00 €",
+    name: "JBL Live 660NC",
+    price: "8 990 ₽",
+    telegramLink: generateTelegramLink("JBL Live 660NC", "8 990 ₽"),
+  },
+  {
+    imgURL: shoe7,
+    name: "Samsung Galaxy Buds2 Pro",
+    price: "12 990 ₽",
+    telegramLink: generateTelegramLink("Samsung Galaxy Buds2 Pro", "12 990 ₽"),
+  },
+  {
+    imgURL: shoe6,
+    name: "Huawei FreeBuds Pro",
+    price: "9 990 ₽",
+    telegramLink: generateTelegramLink("Huawei FreeBuds Pro", "9 990 ₽"),
+  },
+  {
+    imgURL: shoe5,
+    name: "Beats Studio Pro",
+    price: "17 990 ₽",
+    telegramLink: generateTelegramLink("Beats Studio Pro", "17 990 ₽"),
+  },
+  {
+    imgURL: shoe4,
+    name: "Anker Soundcore Space NC",
+    price: "4 990 ₽",
+    telegramLink: generateTelegramLink("Anker Soundcore Space NC", "4 990 ₽"),
   },
 ];
+// Функция для генерации Telegram-ссылки
+function generateTelegramLink(productName, productPrice) {
+  const message = `Привет! Заинтересовался '${productName}' товаром за ${productPrice}. Есть в наличии?`;
+  const encodedMessage = encodeURIComponent(message);
+  return `https://t.me/przhrdsk?text=${encodedMessage}`;
+}
 
 export const services = [
   {
     imgURL: truckFast,
-    label: "Free shipping",
-    subtext: "Enjoy seamless shopping with our complimentary shipping service.",
+    label: "Быстрая доставка",
+    subtext: "Оперативная отправка заказов в любые города — без задержек и лишних хлопот.",
   },
   {
     imgURL: shieldTick,
-    label: "Secure Payment",
-    subtext:
-      "Experience worry-free transactions with our secure payment options.",
+    label: "Надежная покупка",
+    subtext: "Гарантия оригинальности и безопасные способы оплаты для вашего спокойствия.",
   },
   {
     imgURL: support,
-    label: "Love to help you",
-    subtext: "Our dedicated team is here to assist you every step of the way.",
+    label: "Всегда на связи",
+    subtext: "Наши консультанты помогут с выбором и ответят на все вопросы — быстро и по делу.",
   },
 ];
 
 export const reviews = [
   {
     imgURL: customer1,
-    customerName: "Morich Brown",
+    customerName: "хуйня всякая",
     rating: 4.5,
     feedback:
-      "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
+      "Tхуйня всякая",
   },
   {
     imgURL: customer2,
-    customerName: "Lota Mongeskar",
+    customerName: "хуйня всякая",
     rating: 4.5,
     feedback:
-      "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
+      "хуйня всякая",
   },
 ];
 
@@ -112,29 +145,29 @@ export const footerLinks = [
   {
     title: "Products",
     links: [
-      { name: "Chuck Taylor All Star", link: "/" },
-      { name: "Run Star Hike Platform", link: "/" },
-      { name: "Chuck 70 Tri-Color", link: "/" },
-      { name: "Star Player 76", link: "/" },
-      { name: "Chuck Taylor All Star Lift Platform", link: "/" },
-      { name: "Run Star Legacy Chelsea CX", link: "/" },
+      { name: "хуйня всякая", link: "/" },
+      { name: "хуйня всякая", link: "/" },
+      { name: "хуйня всякая", link: "/" },
+      { name: "хуйня всякая", link: "/" },
+      { name: "хуйня всякая", link: "/" },
+      { name: "хуйня всякая", link: "/" },
     ],
   },
   {
     title: "Help",
     links: [
-      { name: "About us", link: "/" },
-      { name: "FAQs", link: "/" },
-      { name: "How it works", link: "/" },
-      { name: "Privacy policy", link: "/" },
-      { name: "Payment policy", link: "/" },
+      { name: "хуйня всякая", link: "/" },
+      { name: "хуйня всякая", link: "/" },
+      { name: "хуйня всякая", link: "/" },
+      { name: "хуйня всякая", link: "/" },
+      { name: "хуйня всякая", link: "/" },
     ],
   },
   {
-    title: "Get in touch",
+    title: "хуйня всякая",
     links: [
-      { name: "customer@converse.com", link: "mailto:customer@converse.com" },
-      { name: "+92554862354", link: "tel:+92554862354" },
+      { name: "хуйня всякая", link: "mailto:хуйня всякая" },
+      { name: "хуйня всякая", link: "tel:хуйня всякая" },
     ],
   },
 ];

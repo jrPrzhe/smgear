@@ -8,11 +8,10 @@ const PopularProducts = () => {
     <section id="products" className="max-container max-sm:mt-12">
       <div className="flex flex-col justify-start gap-5">
         <h2 className="text-4xl font-palanquin font-bold">
-          Our <span className="text-purple-900">Popular</span> Products
+          <span className="text-purple-900">Популярные</span> Товары
         </h2>
         <p className="lg:max-w-lg mt-2 font-montserrat text-slate-gray">
-          Experience top-notch quality and style with our sought-after
-          selections. Discover a world of comfort, design, and value.
+        Высокие характеристики и передовые технологии в каждом устройстве. Беспроводные наушники с шумоподавлением, портативные колонки с мощным звуком и быстрые зарядные устройства — всё для вашего удобства и максимальной производительности.
         </p>
       </div>
       <TrackVisibility partialVisibility once>
