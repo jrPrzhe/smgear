@@ -27,7 +27,15 @@ const SuperQuality = () => {
         </p>
         <div className="mt-11">
           {" "}
-          <Button label="Связаться с Нами" />
+          <Button
+            label="Связь с продавцом"
+            backgroundColor="bg-white"
+            borderColor="border-slate-gray"
+            textColor="text-slate-gray"
+            onClick={() =>
+              window.open("https://t.me/smgear138",  "_blank")
+            }
+          />
         </div>
       </div>
       <TrackVisibility partialVisibility once>

@@ -8,12 +8,14 @@ import Subscribe from "./Subscribe";
 import Footer from "./Footer";
 
 export {
+  
   Hero,
+  CustomerReviews,
   PopularProducts,
   SuperQuality,
   Services,
+  
   SpecialOffer,
-  CustomerReviews,
   Subscribe,
   Footer,
 };

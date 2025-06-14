@@ -107,9 +107,11 @@ export const products = [
 function generateTelegramLink(productName, productPrice) {
   const message = `Привет! Заинтересовался '${productName}' товаром за ${productPrice}. Есть в наличии?`;
   const encodedMessage = encodeURIComponent(message);
-  return `https://t.me/przhrdsk?text=${encodedMessage}`;
+  return `https://t.me/?text=${encodedMessage}`;
 }
-
+export const reviews = [
+  
+];
 export const services = [
   {
     imgURL: truckFast,
@@ -128,52 +130,10 @@ export const services = [
   },
 ];
 
-export const reviews = [
-  {
-    imgURL: customer1,
-    customerName: "хуйня всякая",
-    rating: 4.5,
-    feedback:
-      "Tхуйня всякая",
-  },
-  {
-    imgURL: customer2,
-    customerName: "хуйня всякая",
-    rating: 4.5,
-    feedback:
-      "хуйня всякая",
-  },
-];
+
 
 export const footerLinks = [
-  {
-    title: "Products",
-    links: [
-      { name: "хуйня всякая", link: "/" },
-      { name: "хуйня всякая", link: "/" },
-      { name: "хуйня всякая", link: "/" },
-      { name: "хуйня всякая", link: "/" },
-      { name: "хуйня всякая", link: "/" },
-      { name: "хуйня всякая", link: "/" },
-    ],
-  },
-  {
-    title: "Help",
-    links: [
-      { name: "хуйня всякая", link: "/" },
-      { name: "хуйня всякая", link: "/" },
-      { name: "хуйня всякая", link: "/" },
-      { name: "хуйня всякая", link: "/" },
-      { name: "хуйня всякая", link: "/" },
-    ],
-  },
-  {
-    title: "хуйня всякая",
-    links: [
-      { name: "хуйня всякая", link: "mailto:хуйня всякая" },
-      { name: "хуйня всякая", link: "tel:хуйня всякая" },
-    ],
-  },
+  
 ];
 
 export const socialMedia = [

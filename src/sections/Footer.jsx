@@ -11,7 +11,7 @@ const Footer = () => {
             <img src={footerLogo} width={250} height={46} />
           </a>
           <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">
-            хуйня всякая
+            
           
           </p>
           <div className="flex items-center gap-5 mt-8">
@@ -54,9 +54,9 @@ const Footer = () => {
             height={20}
             className="rounded-full m-0"
           />
-          <p>ХУЙНЯ всякая</p>
+          <p>SMGEAR</p>
         </div>
-        <p className="font-montserrat cursor-pointer">хуйня всякая</p>
+        <p className="font-montserrat cursor-pointer">SMGEAR</p>
       </div>
     </footer>
   );
