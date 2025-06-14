@@ -24,18 +24,25 @@ const SpecialOffer = () => {
       </TrackVisibility>
       <div className="flex flex-1 flex-col">
         <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
-          <span className="text-purple-900">Хуйня </span>
-          Всякая
+          <span className="text-purple-900">КОНКУРС Электроники</span>
+          
         </h2>
         <p className="mt-4 info-text">
-          БЛАБЛА
+           
         </p>
         <p className="mt-6 info-text">
-          Хуйня-Хуйня_ЗУЙНЯЯЯ
+          🏆 Призы по местам:<br></br>
+          <p className="mt-4 info-text">
+           
+        </p>
+🥇 1 место — AirPods 4 🔥<br></br>
+🥈 2 место — JBL Pulse 5 🔥<br></br>
+🥉 3 место — Быстрая зарядка 25W 🔥<br></br>
+🏅 4 место — Беспроводная зарядка MagSafe 🔥<br></br>
         </p>
         <div className="mt-11 flex flex-wrap gap-4">
           {" "}
-          <Button label="Перейти к оформлению" iconURL={arrowRight} />
+          <Button label="Принять участие" iconURL={arrowRight} />
           <Button
             label="Связь с продавцом"
             backgroundColor="bg-white"
