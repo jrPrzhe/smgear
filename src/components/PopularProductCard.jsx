@@ -11,11 +11,7 @@ const PopularProductCard = ({ imgURL, name, price, isLast }) => {
   useEffect(() => {
     let intervalId;
 
-    if (isLast) {
-      intervalId = setInterval(() => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % carrousel.length);
-      }, 1000);
-    }
+    
 
     return () => clearInterval(intervalId);
   }, [isLast]);
