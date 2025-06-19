@@ -74,10 +74,10 @@ export const products = [
   },
   
   {
-    imgURL: shoe8,
-    name: "Беспроводная зарядка MagSafe 5000mAh",
-    price: "700 ₽",
-    telegramLink: generateTelegramLink("Беспроводная зарядка MagSafe 5000mAh", "700 ₽"),
+    imgURL: shoe7,
+    name: "Умные часы Watch S9 LUX",
+    price: "3 500 ₽",
+    telegramLink: generateTelegramLink("Умные часы Watch S9 LUX", "3 500 ₽"),
   },
   {
     imgURL: shoe9,
@@ -97,11 +97,12 @@ export const products = [
     price: "350 ₽",
     telegramLink: generateTelegramLink("Беспроводное зарядное устройство", "350 ₽"),
   },
+  
   {
-    imgURL: shoe7,
-    name: "Умные часы Watch S9 LUX",
-    price: "3 500 ₽",
-    telegramLink: generateTelegramLink("Умные часы Watch S9 LUX", "3 500 ₽"),
+    imgURL: shoe8,
+    name: "Беспроводная зарядка MagSafe 5000mAh",
+    price: "700 ₽",
+    telegramLink: generateTelegramLink("Беспроводная зарядка MagSafe 5000mAh", "700 ₽"),
   },
 ];
 // Функция для генерации Telegram-ссылки
