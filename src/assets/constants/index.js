@@ -56,28 +56,23 @@ export const statistics = [
 export const products = [
   {
     imgURL: shoe4,
-    name: "Наушники AirPods 3",
+    name: "APPLE AirPods 3",
     price: "1 500 ₽",
     telegramLink: generateTelegramLink("Наушники AirPods 3", "1 500 ₽"),
   },
   {
     imgURL: shoe5,
-    name: "Наушники AirPods 2 pro",
+    name: "APPLE AirPods 2 pro",
     price: "1 500 ₽",
     telegramLink: generateTelegramLink("Наушники AirPods 2 pro", "1 500 ₽"),
   },
   {
     imgURL: shoe6,
-    name: "Apple watch ultra 2",
+    name: "APPLE watch ultra 2",
     price: "2 500 ₽",
     telegramLink: generateTelegramLink("Apple watch ultra 2", "2 500 ₽"),
   },
-  {
-    imgURL: shoe7,
-    name: "Умные часы Watch S9 LUX",
-    price: "3 500 ₽",
-    telegramLink: generateTelegramLink("Умные часы Watch S9 LUX", "3 500 ₽"),
-  },
+  
   {
     imgURL: shoe8,
     name: "Беспроводная зарядка MagSafe 5000mAh",
@@ -101,6 +96,12 @@ export const products = [
     name: "Беспроводное зарядное устройство",
     price: "350 ₽",
     telegramLink: generateTelegramLink("Беспроводное зарядное устройство", "350 ₽"),
+  },
+  {
+    imgURL: shoe7,
+    name: "Умные часы Watch S9 LUX",
+    price: "3 500 ₽",
+    telegramLink: generateTelegramLink("Умные часы Watch S9 LUX", "3 500 ₽"),
   },
 ];
 // Функция для генерации Telegram-ссылки
