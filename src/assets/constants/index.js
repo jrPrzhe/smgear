@@ -99,7 +99,7 @@ export const products = [
   },
   
   {
-    imgURL: shoe8,
+    imgURL: shoe5,
     name: "Беспроводная зарядка MagSafe 5000mAh",
     price: "700 ₽",
     telegramLink: generateTelegramLink("Беспроводная зарядка MagSafe 5000mAh", "700 ₽"),
