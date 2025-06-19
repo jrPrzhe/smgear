@@ -20,6 +20,7 @@ import {
   shoe9,
   shoe10,
   shoe11,
+  shoe13,
   thumbnailShoe1,
   thumbnailShoe2,
   thumbnailShoe3,
@@ -99,7 +100,7 @@ export const products = [
   },
   
   {
-    imgURL: shoe5,
+    imgURL: shoe13,
     name: "Беспроводная зарядка MagSafe 5000mAh",
     price: "850 ₽",
     telegramLink: generateTelegramLink("Беспроводная зарядка MagSafe 5000mAh", "700 ₽"),
