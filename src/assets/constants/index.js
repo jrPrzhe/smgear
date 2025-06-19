@@ -63,7 +63,7 @@ export const products = [
   {
     imgURL: shoe5,
     name: "APPLE AirPods 2 pro",
-    price: "1 500 ₽",
+    price: "1 700 ₽",
     telegramLink: generateTelegramLink("Наушники AirPods 2 pro", "1 500 ₽"),
   },
   {
@@ -82,7 +82,7 @@ export const products = [
   {
     imgURL: shoe9,
     name: "Комплект блок и кабель быстрой зарядки 25W",
-    price: "380 ₽",
+    price: "400 ₽",
     telegramLink: generateTelegramLink("Комплект блок и кабель быстрой зарядки 25W", "380 ₽"),
   },
   {
@@ -101,7 +101,7 @@ export const products = [
   {
     imgURL: shoe5,
     name: "Беспроводная зарядка MagSafe 5000mAh",
-    price: "700 ₽",
+    price: "850 ₽",
     telegramLink: generateTelegramLink("Беспроводная зарядка MagSafe 5000mAh", "700 ₽"),
   },
 ];
