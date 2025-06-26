@@ -20,6 +20,7 @@ import {
   shoe9,
   shoe10,
   shoe11,
+  
   thumbnailShoe1,
   thumbnailShoe2,
   thumbnailShoe3,
@@ -57,21 +58,23 @@ export const products = [
   {
     imgURL: shoe4,
     name: "Наушники AirPods 3",
+    name: "APPLE AirPods 3",
     price: "1 500 ₽",
     telegramLink: generateTelegramLink("Наушники AirPods 3", "1 500 ₽"),
   },
   {
     imgURL: shoe5,
-    name: "Наушники AirPods 2 pro",
-    price: "1 500 ₽",
+    name: "APPLE AirPods 2 pro",
+    price: "1 700 ₽",
     telegramLink: generateTelegramLink("Наушники AirPods 2 pro", "1 500 ₽"),
   },
   {
     imgURL: shoe6,
-    name: "Apple watch ultra 2",
+    name: "APPLE watch ultra 2",
     price: "2 500 ₽",
     telegramLink: generateTelegramLink("Apple watch ultra 2", "2 500 ₽"),
   },
+  
   {
     imgURL: shoe7,
     name: "Умные часы Watch S9 LUX",
@@ -79,15 +82,9 @@ export const products = [
     telegramLink: generateTelegramLink("Умные часы Watch S9 LUX", "3 500 ₽"),
   },
   {
-    imgURL: shoe8,
-    name: "Беспроводная зарядка MagSafe 5000mAh",
-    price: "700 ₽",
-    telegramLink: generateTelegramLink("Беспроводная зарядка MagSafe 5000mAh", "700 ₽"),
-  },
-  {
     imgURL: shoe9,
     name: "Комплект блок и кабель быстрой зарядки 25W",
-    price: "380 ₽",
+    price: "400 ₽",
     telegramLink: generateTelegramLink("Комплект блок и кабель быстрой зарядки 25W", "380 ₽"),
   },
   {
@@ -101,6 +98,13 @@ export const products = [
     name: "Беспроводное зарядное устройство",
     price: "350 ₽",
     telegramLink: generateTelegramLink("Беспроводное зарядное устройство", "350 ₽"),
+  },
+  
+  {
+    imgURL: shoe12,
+    name: "Беспроводная зарядка MagSafe 5000mAh",
+    price: "850 ₽",
+    telegramLink: generateTelegramLink("Беспроводная зарядка MagSafe 5000mAh", "700 ₽"),
   },
 ];
 // Функция для генерации Telegram-ссылки

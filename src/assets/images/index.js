@@ -14,11 +14,12 @@ import shoe4 from "./shoe1.jpg";
 import shoe5 from "./shoe2.jpg";
 import shoe6 from "./shoe3.jpg";
 import shoe7 from "./shoe4.jpg";
-import shoe8 from "./shoe5.jpg";
+import shoe13 from "./shoe5.jpg";
 import shoe9 from "./shoe6.jpg";
 import shoe10 from "./shoe7.jpg";
 import shoe11 from "./shoe8.jpg";
 import shoe12 from "./shoe4.jpg";
+
 
 import thumbnailBackground from "./thumbnail-background.svg";
 import thumbnailShoe1 from "./thumbnail-shoe1.jpg";
