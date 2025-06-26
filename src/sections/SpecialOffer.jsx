@@ -55,6 +55,7 @@ const SpecialOffer = () => {
         <div className="mt-11 flex flex-wrap gap-4">
           <Button
             label="Принять участие"
+            className="mt-4 inline-block px-4 py-2 bg-gradient-to-r from-purple-900 to-purple-900 text-white font-semibold rounded-md hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-600 transition-all duration-300 ease-in-out"
             iconURL={arrowRight}
             onClick={() =>
               window.open("https://t.me/smartgear138/20",  "_blank")

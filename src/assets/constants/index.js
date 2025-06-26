@@ -49,16 +49,16 @@ export const shoes = [
 
 export const statistics = [
   { value: "1k+", label: "Товаров" },
-  { value: "500+", label: "Поставщиков" },
-  { value: "250k+", label: "Продаж" },
+  { value: "50+", label: "Поставщиков" },
+  { value: "1k+", label: "Продаж" },
 ];
 
 export const products = [
   {
     imgURL: shoe4,
-    name: "Наушники AirPods 4",
+    name: "Наушники AirPods 3",
     price: "1 500 ₽",
-    telegramLink: generateTelegramLink("Наушники AirPods 4", "1 500 ₽"),
+    telegramLink: generateTelegramLink("Наушники AirPods 3", "1 500 ₽"),
   },
   {
     imgURL: shoe5,
@@ -92,7 +92,7 @@ export const products = [
   },
   {
     imgURL: shoe10,
-    name: "JBL Pulse 5",
+    name: "Портативная колонка JBL Pulse 5",
     price: "2 000 ₽",
     telegramLink: generateTelegramLink("JBL Pulse 5", "2 000 ₽"),
   },

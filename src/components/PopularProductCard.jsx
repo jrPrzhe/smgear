@@ -11,11 +11,7 @@ const PopularProductCard = ({ imgURL, name, price, isLast }) => {
   useEffect(() => {
     let intervalId;
 
-    if (isLast) {
-      intervalId = setInterval(() => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % carrousel.length);
-      }, 1000);
-    }
+    
 
     return () => clearInterval(intervalId);
   }, [isLast]);
@@ -42,14 +38,14 @@ const PopularProductCard = ({ imgURL, name, price, isLast }) => {
       </p>
 
       {/* Кнопка с Telegram-ссылкой */}
-      <a
-        href={telegramLink}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-4 inline-block px-4 py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition-colors"
-      >
-        Оформить заказ
-      </a>
+    <a
+  href={telegramLink}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-4 inline-block px-4 py-2 bg-gradient-to-r from-purple-900 to-purple-900 text-white font-semibold rounded-md hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-600 transition-all duration-300 ease-in-out"
+>
+  Оформить заказ
+</a>
     </div>
   );
 };
