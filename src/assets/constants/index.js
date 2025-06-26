@@ -20,6 +20,7 @@ import {
   shoe9,
   shoe10,
   shoe11,
+   shoe12,
   
   thumbnailShoe1,
   thumbnailShoe2,
@@ -58,7 +59,6 @@ export const products = [
   {
     imgURL: shoe4,
     name: "Наушники AirPods 3",
-    name: "APPLE AirPods 3",
     price: "1 500 ₽",
     telegramLink: generateTelegramLink("Наушники AirPods 3", "1 500 ₽"),
   },

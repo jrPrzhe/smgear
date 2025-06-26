@@ -19,7 +19,7 @@ import shoe9 from "./shoe6.jpg";
 import shoe10 from "./shoe7.jpg";
 import shoe11 from "./shoe8.jpg";
 import shoe12 from "./shoe4.jpg";
-
+import shoe8 from "./shoe8.jpg";
 
 import thumbnailBackground from "./thumbnail-background.svg";
 import thumbnailShoe1 from "./thumbnail-shoe1.jpg";
